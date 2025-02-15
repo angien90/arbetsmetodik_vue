@@ -6,7 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools';
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/https://github.com/angien90/arbetsmetodik_vue/',
+  base: '/angien90/arbetsmetodik_vue/',
   plugins: [vue(), vueDevTools()],
   resolve: {
     alias: {
